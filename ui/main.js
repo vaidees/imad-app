@@ -1,5 +1,5 @@
 console.log("loaded");
 
 var id=document.getElementById("id");
-id.innerHTML="kk";
+id.innerHTML="kkj";
 
