@@ -29,10 +29,10 @@ ${text}
 return template;
 }
 
-app.get('/:Name', function (req, res) {
+app.get('/:contentName', function (req, res) {
 
 //res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-res.send(temp(content[Name]));
+res.send(temp(content[contentName]));
 });
 
 app.get('/ui/style.css', function (req, res) {
