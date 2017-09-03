@@ -9,16 +9,21 @@ var content={
     text:"hello",
     date:"today"
 };
-
+function  temp(data)
+{
 var template=`<html>
 <body>
 ${text}
 </body>
 </html>`;
 
+return template;
+}
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+
+//res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+res.send(temp(content));
 });
 
 app.get('/ui/style.css', function (req, res) {
