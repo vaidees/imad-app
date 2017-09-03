@@ -6,8 +6,15 @@ var app = express();
 app.use(morgan('combined'));
 
 var content={
+    content1:{
     text:"hello",
     date:"today"
+    },
+    
+    content2:{
+    text:"hello",
+    date:"today"
+    }
 };
 function  temp(data)
 {
