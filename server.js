@@ -6,12 +6,12 @@ var app = express();
 app.use(morgan('combined'));
 
 var content={
-    content1:{
+    'content1':{
     text:"hello1",
     date:"today"
     },
     
-    content2:{
+    'content2':{
     text:"hello2",
     date:"today"
     }
