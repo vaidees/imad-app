@@ -32,7 +32,7 @@ return template;
 app.get('/:contentNames', function (req, res) {
 var contentName=req.params.contentNames;
 //res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-res.send(temp(content[contentNames]));
+res.send(temp(content[contentName]));
 });
 
 app.get('/ui/style.css', function (req, res) {
