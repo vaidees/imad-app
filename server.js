@@ -11,6 +11,8 @@ var content={
 };
 function  temp(data)
 {
+    var text=data.text;
+    
 var template=`<html>
 <body>
 ${text}
