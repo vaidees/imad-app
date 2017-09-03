@@ -30,7 +30,7 @@ return template;
 }
 
 app.get('/:contentName', function (req, res) {
-
+var contentName=req.params.contentName;
 //res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 res.send(temp(content[contentName]));
 });
