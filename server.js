@@ -7,12 +7,12 @@ app.use(morgan('combined'));
 
 var content={
     content1:{
-    text:"hello",
+    text:"hello1",
     date:"today"
     },
     
     content2:{
-    text:"hello",
+    text:"hello2",
     date:"today"
     }
 };
